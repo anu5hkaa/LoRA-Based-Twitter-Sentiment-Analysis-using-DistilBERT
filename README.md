@@ -6,7 +6,7 @@ The primary goal was to understand the motivation behind LoRA, its mathematical 
 
 ---
 
-# 📌 Why LoRA?
+#  Why LoRA?
 
 Traditional fine-tuning updates every parameter of a pretrained model, making the process computationally expensive and memory intensive, especially for large language models.
 
@@ -14,7 +14,7 @@ LoRA introduces a parameter-efficient approach by freezing the original pretrain
 
 ---
 
-# 📚 Concepts Explored
+# Concepts Explored
 
 While studying the paper, I explored and understood:
 
@@ -37,7 +37,7 @@ While studying the paper, I explored and understood:
 
 ---
 
-# 🧪 Hands-on Learning
+# Hands-on Learning
 
 To reinforce the concepts presented in the paper, I implemented LoRA using:
 
@@ -87,7 +87,7 @@ The final model was evaluated on the held-out test set using:
 
 ---
 
-# 📝 Key Learnings
+#  Key Learnings
 
 - LoRA enables efficient adaptation of pretrained transformer models by training only lightweight adapter matrices.
 - The choice of **Rank (r)** and **Alpha (α)** directly affects model capacity and performance.
@@ -97,7 +97,7 @@ The final model was evaluated on the held-out test set using:
 
 ---
 
-# 🛠️ Tools & Libraries
+#  Tools & Libraries
 
 - Python
 - PyTorch
@@ -110,7 +110,7 @@ The final model was evaluated on the held-out test set using:
 
 ---
 
-# 📖 Reference
+# Reference
 
 **LoRA: Low-Rank Adaptation of Large Language Models**
 
